@@ -10,8 +10,6 @@ body {
 }
 
 header {
-  background-color: #1f2937;
-  color: white;
   display: flex;
   justify-content: space-between;
   padding: 0.5em;
@@ -24,8 +22,6 @@ header {
 
 header a {
   text-decoration: none;
-  font-size: 18px;
-  color: #e5e7eb;
 }
 
 .links {
@@ -33,4 +29,43 @@ header a {
   display: flex;
   justify-content: flex-end;
   gap: 1.1em;
+}
+
+.section-1,
+header {
+  /* border: 3px solid red; */
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.section-1 p,
+header a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.section-1 p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.section-1 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  /* border: 3px solid yellowgreen; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+}
+
+.right img {
+  width: 80%;
+  max-width: 1500px;
+  border-radius: 5%;
 }
