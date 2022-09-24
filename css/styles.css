@@ -121,3 +121,38 @@ header a {
   font-weight: bold;
   font-style: normal;
 }
+
+/* Section 4 */
+.section-4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+  background-color: #3882f6;
+  padding: 60px;
+  border-radius: 16px;
+}
+
+.section-4 h4 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.section-4 p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* Buttons */
+button {
+  font-size: 15px;
+  font-weight: 550;
+  padding: 8px 15px;
+  border-radius: 8px;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.section-4 button {
+  border: 2px solid #f9faf8;
+}
