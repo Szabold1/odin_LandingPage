@@ -38,6 +38,10 @@ header a {
   gap: 1.1em;
 }
 
+header a:hover {
+  font-weight: bold;
+}
+
 /* Section 1 */
 .section-1 {
   background-color: #1f2937;
@@ -47,11 +51,16 @@ header a {
   align-items: center;
 }
 
+.section-1 h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
 .section-1 p {
   font-size: 18px;
   color: #e5e7eb;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-top: 6px;
+  margin-bottom: 18px;
 }
 
 .right {
@@ -151,6 +160,10 @@ button {
   border-radius: 8px;
   background-color: #3882f6;
   color: #f9faf8;
+}
+
+button:hover {
+  font-weight: bold;
 }
 
 .section-4 button {
